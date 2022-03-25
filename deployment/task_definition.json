@@ -1,0 +1,17 @@
+{
+    "family": "crul-predict-task-definition",
+    "containerDefinitions": [
+  {
+    "name": "crul-predict-app",
+    "image": "ACCOUNT.dkr.ecr.REGION.amazonaws.com/data-platform/crul-predictor:latest",
+    "memoryReservation": 1024,
+    "portMappings": [
+      {
+        "containerPort": 80,
+        "hostPort": 0
+      }
+    ]
+  }
+]
+}
+

@@ -1,0 +1,12 @@
+[
+  {
+    "Type": "forward",
+    "ForwardConfig": {
+      "TargetGroups": [
+        {
+          "TargetGroupArn": "TARGET_GROUP_ARN"
+        }
+      ]
+    }
+  }
+]

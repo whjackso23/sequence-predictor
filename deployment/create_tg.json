@@ -1,0 +1,11 @@
+{
+            "Name": "crul-predict-service-tg",
+            "Protocol": "HTTP",
+            "Port": 80,
+            "VpcId": "VPC_ID",
+            "TargetType": "instance",
+            "HealthCheckEnabled": true,
+            "UnhealthyThresholdCount": 2,
+            "HealthyThresholdCount": 5,
+            "HealthCheckPath": "/crul/predict-service/status"
+}

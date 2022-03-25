@@ -1,0 +1,13 @@
+{
+    "cluster": "CLUSTER_NAME",
+    "service": "crul-predict-service",
+    "taskDefinition": "crul-predict-task-definition",
+    "desiredCount": 2,
+    "capacityProviderStrategy": [
+    {
+      "capacityProvider": "CAPACITY_PROVIDER",
+      "weight": 1,
+      "base": 2
+    }
+  ]
+}

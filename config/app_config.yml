@@ -1,0 +1,17 @@
+s3:
+  ds:
+    artifact_bucket: ds-railinc-data
+    version: beta
+    artifact_path: crul
+  dev:
+    artifact_bucket: rail-dp-dev
+    version: beta
+    artifact_path: crul
+  tst:
+    artifact_bucket: rail-dp-test
+    version: beta
+    artifact_path: crul
+  prd:
+    artifact_bucket: rail-dp-prd
+    version: beta
+    artifact_path: crul

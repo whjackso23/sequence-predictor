@@ -1,0 +1,14 @@
+{
+    "cluster": "CLUSTER_NAME",
+    "serviceName": "SERVICE_NAME",
+    "taskDefinition": "crul-predict-task-definition",
+    "desiredCount": 2,
+	"launchType" : "EC2",
+    "loadBalancers": [
+    {
+    "targetGroupArn": "TARGET_GROUP_ARN",
+    "containerName": "crul-predict-app",
+    "containerPort": 80
+    }
+]
+}
